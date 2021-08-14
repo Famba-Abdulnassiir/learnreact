@@ -9,6 +9,8 @@ import Comments from "./comment";
 import Tick from "./tickingClock";
 import Ticking from "./tickingModified";
 import Clock from "./stateClock";
+import Form from "./preventDefault";
+import Toggle from "./toggle";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
@@ -21,6 +23,8 @@ ReactDOM.render(
     <Tick/>
     <Ticking/>
     <Clock/>
+    <Form/>
+    <Toggle/>
   </StrictMode>,
   rootElement
 );

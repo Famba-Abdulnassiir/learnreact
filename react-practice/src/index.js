@@ -11,6 +11,9 @@ import Ticking from "./tickingModified";
 import Clock from "./stateClock";
 import Form from "./preventDefault";
 import Toggle from "./toggle";
+import UserLogin from "./userLogin";
+import LoginControl from "./loginControl";
+import UnreadMails from "./inlineIf";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
@@ -25,6 +28,9 @@ ReactDOM.render(
     <Clock/>
     <Form/>
     <Toggle/>
+    <UserLogin/>
+    <LoginControl/>
+    <UnreadMails/>
   </StrictMode>,
   rootElement
 );

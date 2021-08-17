@@ -14,6 +14,9 @@ import Toggle from "./toggle";
 import UserLogin from "./userLogin";
 import LoginControl from "./loginControl";
 import UnreadMails from "./inlineIf";
+import DoubleNumbers from "./doubleNumbers";
+import DoubleModified from "./doubleNumberModified"
+import Blogs from "./blogKeys";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
@@ -31,6 +34,9 @@ ReactDOM.render(
     <UserLogin/>
     <LoginControl/>
     <UnreadMails/>
+    <DoubleNumbers/>
+    <DoubleModified/>
+    <Blogs/>
   </StrictMode>,
   rootElement
 );

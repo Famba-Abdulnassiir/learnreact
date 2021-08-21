@@ -17,6 +17,12 @@ import UnreadMails from "./inlineIf";
 import DoubleNumbers from "./doubleNumbers";
 import DoubleModified from "./doubleNumberModified"
 import Blogs from "./blogKeys";
+import NameForm from "./controlledForm";
+import EssayFrom from "./textAreatag";
+import FlavorForm from "./selectTag";
+import Reservation from "./multipleInputs";
+import NameForm2 from "./uncontrolledComponent1";
+import Fileinput from "./uncontroledInputFile";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
@@ -37,6 +43,12 @@ ReactDOM.render(
     <DoubleNumbers/>
     <DoubleModified/>
     <Blogs/>
+    <NameForm/>
+    <EssayFrom/>
+    <FlavorForm/>
+    <Reservation/>
+    <NameForm2/>
+    <Fileinput/>
   </StrictMode>,
   rootElement
 );

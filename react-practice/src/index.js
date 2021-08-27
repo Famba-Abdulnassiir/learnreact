@@ -23,6 +23,7 @@ import FlavorForm from "./selectTag";
 import Reservation from "./multipleInputs";
 import NameForm2 from "./uncontrolledComponent1";
 import Fileinput from "./uncontroledInputFile";
+import Calculator from "./calculator";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
@@ -49,6 +50,7 @@ ReactDOM.render(
     <Reservation/>
     <NameForm2/>
     <Fileinput/>
+    <Calculator/>
   </StrictMode>,
   rootElement
 );

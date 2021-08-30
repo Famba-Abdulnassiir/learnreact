@@ -24,6 +24,7 @@ import Reservation from "./multipleInputs";
 import NameForm2 from "./uncontrolledComponent1";
 import Fileinput from "./uncontroledInputFile";
 import Calculator from "./calculator";
+import Containment from "./containment";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
@@ -51,6 +52,7 @@ ReactDOM.render(
     <NameForm2/>
     <Fileinput/>
     <Calculator/>
+    <Containment />
   </StrictMode>,
   rootElement
 );
